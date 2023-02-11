@@ -1,0 +1,135 @@
+/* .account-h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+   
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+} */
+
+.acct-h2{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+.alert{
+    width: 30%;
+}
+
+.acct-p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: left;
+    color: white;
+}
+
+.acct-butt{
+    background-color: #3054a3;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+.acct-butt:hover{
+    background-color: #3f48c7;
+}
+
+.button-div{
+    text-align: left;
+    display: flex;
+    gap: 60px;
+}
+
+.a-foot{
+    margin-bottom: 200px;
+}
+
+.jaga-con{
+    padding-left: 80px;
+  }
+
+@media screen and (max-width: 1023px) {
+   .button-div{
+       /* flex-direction: column; */
+       gap: 20px;
+   }
+}
+
+@media screen and (max-width: 859px) {
+    .button-div{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .acct-butt{
+        width: 70%;
+        height: 60px;
+        padding-top: 12px;
+    }
+
+    .a-foot{
+        margin-bottom: 100px;
+    }
+
+ }
+
+ @media screen and (max-width: 859px) {
+    .a-lay{
+        margin-top: 30px;
+    }
+
+    .acct-h2{
+        font-size: 27px;
+    }
+
+    .acct-p{
+        font-size: 18px;
+    }
+
+
+    .button-div{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .acct-butt{
+        width: 80%;
+        height: 50px;
+        font-size:  16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .jaga-con{
+      padding-left: 40px;
+    }
+
+    .alert{
+        width: 80%;
+    }
+ }
+
+ @media screen and (max-width: 350px) {
+   .acct-h2{
+       font-size: 20px;
+   }
+ }
